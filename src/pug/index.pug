@@ -1,318 +1,579 @@
 doctype html
-html(lang='en')
-
-    head
-
-        meta(charset='utf-8')
-        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
-        meta(name='description', content='')
-        meta(name='author', content='')
-
-        title Resume - Start Bootstrap Themeee
-
-        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
-
-        // Font Awesome icons (free version)
-        script(src='https://use.fontawesome.com/releases/v6.3.0/js/all.js', crossorigin='anonymous')
-
-        // Google fonts
-        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
-        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
-
-        // Core theme CSS (includes Bootstrap)
-        link(href='css/styles.css', rel='stylesheet')
-
-    body#page-top
-
-        // Navigation
-        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
-            a.navbar-brand.js-scroll-trigger(href='#page-top')
-                span.d-block.d-lg-none Gurpreet Singh
-                span.d-none.d-lg-block
-                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpeg', alt='...')
-            button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
-                span.navbar-toggler-icon
-            #navbarResponsive.collapse.navbar-collapse
-                ul.navbar-nav
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#about') About
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#experience') Experience
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#education') Education
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#skills') Skills
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#interests') Interests
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#awards') Awards
-
-        // Page Content
-        .container-fluid.p-0
-
-            // About
-            section#about.resume-section
-                .resume-section-content
-                    h1.mb-0
-                        | Gurpreet 
-                        span.text-primary Singh
-                    .subheading.mb-5
-                        | 216 Gerrard St E · Toronto, ON M5A 2E6 · (873) 353-1551 · 
-                        a(href='mailto:name@email.com') gurpreetsinghbagga.nitj@gmail.com
-                    p.lead.mb-5
-                    ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-circle.fa-xs(style="font-size: 0.5rem; vertical-align: middle;")
-                            | Senior Software Development Engineer with 10+ years of experience in the Payments, Investment banking, Telecom and Fitness domains.
-                        li
-                            span.fa-li
-                                i.fas.fa-circle.fa-xs(style="font-size: 0.5rem; vertical-align: middle;")
-                            | Computer Science Graduate with master’s from University of Ottawa.
-                        li
-                            span.fa-li
-                                i.fas.fa-circle.fa-xs(style="font-size: 0.5rem; vertical-align: middle;")
-                            | Hands on experience in the software development, including design, implementation, debugging, and support. 
-                        li
-                            span.fa-li
-                                i.fas.fa-circle.fa-xs(style="font-size: 0.5rem; vertical-align: middle;")
-                            | Strong at applying data structures, algorithms, and object-oriented design to solve the challenging problems.
-                        li
-                            span.fa-li
-                                i.fas.fa-circle.fa-xs(style="font-size: 0.5rem; vertical-align: middle;")
-                            | Experience with different Software Development Methodologies including Agile, Iterative, and Waterfall.  
-                        li
-                            span.fa-li
-                                i.fas.fa-circle.fa-xs(style="font-size: 0.5rem; vertical-align: middle;")
-                            | Track record of building and delivering production software systems.     
-                        li
-                            span.fa-li
-                                i.fas.fa-circle.fa-xs(style="font-size: 0.5rem; vertical-align: middle;")
-                            | Extensive experience gathering user requirements, translating business directions into system specifications, facilitating discussions with stakeholders, and coordinating between different teams through all phases of software development lifecycle.    
-
-                        <br>    
-                    .social-icons
-                        a.social-icon(href='http://www.linkedin.com/in/gurpreetsingh-uottawa/', target='_blank')
-                            i.fab.fa-linkedin-in
-                        a.social-icon(href='#!')
-                            i.fab.fa-github
-                        a.social-icon(href='#!')
-                            i.fab.fa-twitter
-                        a.social-icon(href='#!')
-                            i.fab.fa-facebook-f
-
-            hr.m-0
-
-            // Experience
-            section#experience.resume-section
-               .resume-section-content
-                    h2.mb-5 Experience
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 Senior Software Developer
-                            .subheading.mb-3 Scotiabank
-                            li
-                                span.fa-li
-                                    i.fas.fa-circle.fa-xs(style="font-size: 0.5rem; vertical-align: middle;")
-                                | Spearheading the Message Center Modernization, transitioning core systems from mainframe to Spring Batch for improved scalability, performance, and cost reduction.
-                            li
-                                span.fa-li
-                                    i.fas.fa-circle.fa-xs(style="font-size: 0.5rem; vertical-align: middle;")
-                                | Modernizing database infrastructure by migrating from DB2 to MongoDB, ensuring faster data access and enhanced flexibility.
-                            li
-                                span.fa-li
-                                    i.fas.fa-circle.fa-xs(style="font-size: 0.5rem; vertical-align: middle;")
-                                | Collaborating on cloud migration initiatives, transitioning services from Azure to Google Cloud to leverage advanced cloud-native solutions.
-                            li
-                                span.fa-li
-                                    i.fas.fa-circle.fa-xs(style="font-size: 0.5rem; vertical-align: middle;")
-                                | Enhancing and maintaining Message File Processor which is a spring batch application to support 20+ jobs for processing campaigns received from source teams and eventually adding to Mongo db.
-                            li
-                                span.fa-li
-                                    i.fas.fa-circle.fa-xs(style="font-size: 0.5rem; vertical-align: middle;")
-                                | Enhancing and maintaining a Spring Boot-based Campaign Management Service, which facilitates inquiring, inserting, and updating customer campaigns/offers from Mongo db to drive personalized customer engagement.
-                            li
-                                span.fa-li
-                                    i.fas.fa-circle.fa-xs(style="font-size: 0.5rem; vertical-align: middle;")
-                                | Developing and maintaining microservices using Spring Boot and Java, with seamless integration through REST APIs.
-                            li
-                                span.fa-li
-                                    i.fas.fa-circle.fa-xs(style="font-size: 0.5rem; vertical-align: middle;")
-                                | Implementing observability and performance monitoring using Dynatrace and Splunk for end-to-end system insights. 
-                            li
-                                span.fa-li
-                                    i.fas.fa-circle.fa-xs(style="font-size: 0.5rem; vertical-align: middle;")
-                                | Leveraging containerization and orchestration technologies like Docker and Kubernetes to ensure robust CI/CD pipelines and scalable deployments.
-                            li
-                                span.fa-li
-                                    i.fas.fa-circle.fa-xs(style="font-size: 0.5rem; vertical-align: middle;")
-                                | Tech Stack – Spring, Spring Boot, Spring Batch, Java17, MongoDB, SQL, Kubernetes, Docker, REST, Linux, Apache Tomcat, Azure, Google Cloud Platform, Git, Bitbucket, Microservices, Swagger, Grafana, Postman, Dynatrace, Spunk.                         
-
-                        .flex-shrink-0
-                            span.text-primary August 2024 - Present
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 Senior Full Stack Engineer
-                            .subheading.mb-3 Paymentus
-                            p
-                                | Developed multiple features in different Microservices to enhance different payment channels - Agent Dashboard (AD), Customer Portal (CP), Responsive One Time Payment (ROTP), IVR, Xml One Time Payment (XOTP)
-                        .flex-shrink-0
-                            span.text-primary December 2011 - March 2013
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 Junior Web Designer
-                            .subheading.mb-3 Shout! Media Productions
-                            p
-                                | Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.
-                        .flex-shrink-0
-                            span.text-primary July 2010 - December 2011
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between
-                        .flex-grow-1
-                            h3.mb-0 Web Design Intern
-                            .subheading.mb-3 Shout! Media Productions
-                            p
-                                | Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
-                        .flex-shrink-0
-                            span.text-primary September 2008 - June 2010
-
-            hr.m-0
-
-            // Education
-            section#education.resume-section
-                .resume-section-content
-                    h2.mb-5 Education
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 University of Colorado Boulder
-                            .subheading.mb-3 Bachelor of Science
-                            div Computer Science - Web Development Track
-                            p GPA: 3.23
-                        .flex-shrink-0
-                            span.text-primary August 2006 - May 2010
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between
-                        .flex-grow-1
-                            h3.mb-0 James Buchanan High School
-                            .subheading.mb-3 Technology Magnet Program
-                            p GPA: 3.56
-                        .flex-shrink-0
-                            span.text-primary August 2002 - May 2006
-
-            hr.m-0
-
-            // Skills
-            section#skills.resume-section
-                .resume-section-content
-                    h2.mb-5 Skills
-                    .subheading.mb-3 Programming Languages & Tools
-                    ul.list-inline.dev-icons
-                        li.list-inline-item
-                            i.fab.fa-html5
-                        li.list-inline-item
-                            i.fab.fa-css3-alt
-                        li.list-inline-item
-                            i.fab.fa-js-square
-                        li.list-inline-item
-                            i.fab.fa-angular
-                        li.list-inline-item
-                            i.fab.fa-react
-                        li.list-inline-item
-                            i.fab.fa-node-js
-                        li.list-inline-item
-                            i.fab.fa-sass
-                        li.list-inline-item
-                            i.fab.fa-less
-                        li.list-inline-item
-                            i.fab.fa-wordpress
-                        li.list-inline-item
-                            i.fab.fa-gulp
-                        li.list-inline-item
-                            i.fab.fa-grunt
-                        li.list-inline-item
-                            i.fab.fa-npm
-                    .subheading.mb-3 Workflow
-                    ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Mobile-First, Responsive Design
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Cross Browser Testing & Debugging
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Cross Functional Teams
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Agile Development & Scrum
-
-            hr.m-0
-
-            // Interests
-            section#interests.resume-section
-                .resume-section-content
-                    h2.mb-5 Interests
-                    p
-                        | Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
-                    p.mb-0
-                        | When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
-
-            hr.m-0
-
-            // Awards
-            section#awards.resume-section
-                .resume-section-content
-                    h2.mb-5 Awards & Certifications
-                    ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Google Analytics Certified Developer
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Mobile Web Specialist - Google Certification
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 2
-                            sup nd 
-                            | Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - James Buchanan High School - Hackathon 2006
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 3
-                            sup rd 
-                            | Place - James Buchanan High School - Hackathon 2005
-
-        // Bootstrap core JS
-        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
-
-        // Core theme JS
-        script(src='js/scripts.js')
+head
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  meta(name='description' content='')
+  meta(name='author' content='')
+  title Resume - Start Bootstrap Themeee
+  link(rel='icon' type='image/x-icon' href='assets/img/favicon.ico')
+  // Font Awesome icons (free version)
+  script(src='https://use.fontawesome.com/releases/v6.3.0/js/all.js' crossorigin='anonymous')
+  // Google fonts
+  link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700' rel='stylesheet' type='text/css')
+  link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i' rel='stylesheet' type='text/css')
+  // Core theme CSS (includes Bootstrap)
+  link(href='css/styles.css' rel='stylesheet')
+// Navigation
+nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
+  a.navbar-brand.js-scroll-trigger(href='#page-top')
+    span.d-block.d-lg-none Gurpreet Singh
+    span.d-none.d-lg-block
+      img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpeg' alt='...')
+  button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarResponsive' aria-controls='navbarResponsive' aria-expanded='false' aria-label='Toggle navigation')
+    span.navbar-toggler-icon
+  #navbarResponsive.collapse.navbar-collapse
+    ul.navbar-nav
+      li.nav-item
+        a.nav-link.js-scroll-trigger(href='#about') About
+      li.nav-item
+        a.nav-link.js-scroll-trigger(href='#experience') Experience
+      li.nav-item
+        a.nav-link.js-scroll-trigger(href='#education') Education
+      li.nav-item
+        a.nav-link.js-scroll-trigger(href='#skills') Skills
+      li.nav-item
+        a.nav-link.js-scroll-trigger(href='#interests') Interests
+      li.nav-item
+        a.nav-link.js-scroll-trigger(href='#awards') Awards
+// Page Content
+.container-fluid.p-0
+  // About
+  section#about.resume-section
+    .resume-section-content
+      h1.mb-0
+        | Gurpreet
+        span.text-primary Singh
+      .subheading.mb-5
+        | 216 Gerrard St E &middot; Toronto, ON M5A 2E6 &middot; (873) 353-1551 &middot;
+        a(href='mailto:name@email.com') gurpreetsinghbagga.nitj@gmail.com
+      p.lead.mb-5
+      ul.fa-ul.mb-0
+        li
+          span.fa-li
+            i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+          |                             Senior Software Development Engineer with 10+ years of experience in the Payments, Investment banking, Telecom and Fitness domains.
+        li
+          span.fa-li
+            i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+          |                             Computer Science Graduate with master&rsquo;s from University of Ottawa.
+        li
+          span.fa-li
+            i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+          |                             Hands on experience in the software development, including design, implementation, debugging, and support.
+        li
+          span.fa-li
+            i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+          |                             Strong at applying data structures, algorithms, and object-oriented design to solve the challenging problems.
+        li
+          span.fa-li
+            i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+          |                             Experience with different Software Development Methodologies including Agile, Iterative, and Waterfall.
+        li
+          span.fa-li
+            i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+          |                             Track record of building and delivering production software systems.
+        li
+          span.fa-li
+            i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+          |                             Extensive experience gathering user requirements, translating business directions into system specifications, facilitating discussions with stakeholders, and coordinating between different teams through all phases of software development lifecycle.
+        br
+      .social-icons
+        a.social-icon(href='http://www.linkedin.com/in/gurpreetsingh-uottawa/' target='_blank')
+          i.fab.fa-linkedin-in
+        a.social-icon(href='#!')
+          i.fab.fa-github
+        a.social-icon(href='#!')
+          i.fab.fa-twitter
+        a.social-icon(href='#!')
+          i.fab.fa-facebook-f
+  hr.m-0
+  // Experience
+  section#experience.resume-section
+    .resume-section-content
+      h2.mb-5 Experience
+      .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+        .flex-grow-1
+          h3.mb-0 Senior Software Developer
+          .subheading.mb-3 Scotiabank
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            | Spearheading the Message Center Modernization, transitioning core systems from mainframe to Spring Batch for improved scalability, performance, and cost reduction.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Modernizing database infrastructure by migrating from DB2 to MongoDB, ensuring faster data access and enhanced flexibility.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Collaborating on cloud migration initiatives, transitioning services from Azure to Google Cloud to leverage advanced cloud-native solutions.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Enhancing and maintaining Message File Processor which is a spring batch application to support 20+ jobs for processing campaigns received from source teams and eventually adding to Mongo db.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Enhancing and maintaining a Spring Boot-based Campaign Management Service, which facilitates inquiring, inserting, and updating customer campaigns/offers from Mongo db to drive personalized customer engagement.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Developing and maintaining microservices using Spring Boot and Java, with seamless integration through REST APIs.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Implementing observability and performance monitoring using Dynatrace and Splunk for end-to-end system insights.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Leveraging containerization and orchestration technologies like Docker and Kubernetes to ensure robust CI/CD pipelines and scalable deployments.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Tech Stack &ndash; Spring, Spring Boot, Spring Batch, Java17, MongoDB, SQL, Kubernetes, Docker, REST, Linux, Apache Tomcat, Azure, Google Cloud Platform, Git, Bitbucket, Microservices, Swagger, Grafana, Postman, Dynatrace, Spunk.
+        .flex-shrink-0
+          span.text-primary August 2024 - Present
+      .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+        .flex-grow-1
+          h3.mb-0 Senior Full Stack Engineer
+          .subheading.mb-3 Paymentus
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Developed multiple features in different Microservices to enhance different payment channels - Agent Dashboard (AD), Customer Portal (CP), Responsive One Time Payment (ROTP), IVR, Xml One Time Payment (XOTP)
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Contributed to the Java, NodeJS and React code while building multiple features.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Contributed to the migration of the JPMC biller by refactoring and optimizing the Node.js JPMC migration job which resulted in onboarding of hundreds of billers from JPMCs Payconnexion to Paymentus leading to increase in the revenue.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Designed and developed features for the JPMC Billers and touched multiple areas &ndash; Migration Issues, Dashboard functionalities, Payment Card Validations, Posting File, Customization of Agent Dashboard Report, API changes, Payment Notification, Payment Receipt, JPMC profile parser, Email template.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Designed and developed features for the Farmers Biller and touched couple of areas &ndash; IVR Update profile for expired cards, SSO Flow changes, UI Customizations in the payment receipt, bugs in the Autopay report, ACA (Allowing agent to payment by multiple checks and cash) bugs.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Developed and maintained software solutions, leveraging AWS services to enhance scalability and performance.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 AWS S3 - Stored and fetched the data for multiple billers.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Designed and implemented multiple Restful APIs
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Deployed multiple jobs to UAT and PROD by creating yaml files in the Terraform and Argo for different billers.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Debugged and Fixed SIT, UAT and PROD Issues reported by different billers.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Dev Setup done both on Vagrant/Docker stack and Kubernetes Stack
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Monitored the logs generated by the Monolith and Microservices using Kibana.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Used Jenkins for CICD, GIT, Kubernetes, on the infrastructure side.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Used Sql Developer for creating and executing the SQL queries on oracle db.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Used MongoDb Compass for filtering the data and creating pipelines in the mongo db.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Used JUnit, TestNG, Mockito for Unit and Integration tests.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Worked with Senior Software Architects, mentored Junior developers in the team.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Contributed to the discussion in the Design process with Senior folks in the team.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Participated in the code reviews and provided feedback adhering to the best coding practices.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Tech Stack &ndash; Spring, Spring Boot, Spring Batch, Java8, NodeJS, Typescript, JavaScript, React, MongoDB, Terraform, Kubernetes, Vagrant, Docker, SOAP, REST, Linux, Apache Tomcat, AWS, Git, Bitbucket, Microservices, Swagger, Grafana, Postman
+        .flex-shrink-0
+          span.text-primary August 2022 - July 2024
+      .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+        .flex-grow-1
+          h3.mb-0 Software Developer
+          .subheading.mb-3 AppDirect
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Developed multiple features in different Microservices to enhance the subscription based model of AppDirect.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Contributed to the error rate reduction in thousands of different types of events which helped the business retain more customers.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Designed and implemented the Restful APIs to enable the efficient working of the Event Driven Architecture of the Microservices.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Implemented the New Commerce Experience in order to enable the purchase of Microsoft Applications on the AppDirect Platform.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Used SpringBoot and Java8 APIs in all the Microservices.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Monitored the logs generated by the Microservices using Splunk, Logstash and Kibana.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Used Jenkins for CICD, GIT, Kubernetes, on the infrastructure side.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Implemented Kafka producer and consumer applications on Kafka cluster setup.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Used Spring Kafka API calls to process the messages smoothly on Kafka Cluster setup.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Used the potential of DBeaver and Sequel Pro for creating and executing the SQL queries on oracle db.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Other items in the tech Stack used &ndash; Spring Cloud, Swagger, Grafana, DataDog.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Used JUnit, TestNG, Mockito for Unit and Integration tests.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Participated in the code reviews and provided feedback adhering to the best coding practices
+        .flex-shrink-0
+          span.text-primary October 2020 - April 2022
+      .d-flex.flex-column.flex-md-row.justify-content-between
+        .flex-grow-1
+          h3.mb-0 Software Engineer
+          .subheading.mb-3 Morgan Stanley
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Developed the applications which route the data between local market participants (Exchange, Regulators, Banks, Custodians etc.) and Morgan Stanley Applications on the basis of the data source and its content. The data transfer involved multiple stages of processing using different components like Message Connectivity, File Connectivity, Messaging Queues and NFS etc.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Implemented multiple features in the applications such as providing ability to validate, filter, transform, and enrich the information in files and messages.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Provided maintenance and support by implementing enhancements and bug fixes for multiple applications.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Led the design and development of Exchange Data Handler tool, an Angular based web application which provides users with the ability to save time in exploring the insights of financial data received in multiple formats from different financial institutions.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Implemented new features (i.e. regex search, data compare, caching, Watchtower integration etc.) in the tool based on feedback gathered from the users.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Supported a project to handle exchange of information between Brazil operations team and SecLending team by addressing queries and making appropriate design/code changes.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Coordinated with multiple stakeholders (external and internal) to understand the business needs and recommend appropriate solution options.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Participated in the code reviews and provided feedback adhering to best coding practices.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Extensively used Core Java concepts like collection framework, multithreading, OOPS and Exception Handling.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Created database objects like tables, views, procedures and functions using PL/SQL in Oracle DB.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Followed Agile methodology (TDD, Scrum) to satisfy the customers and wrote JUnit test cases for unit testing the integration layer.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Used log4j for tracking errors and debugging the code
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Completed the intensive Technology Analyst Program held at Morgan Stanley New york office.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Tech Stack used &ndash; Java, Spring MVC, Spring Boot, Angular 7, Typescript, RESTful API, SOAP API, MYSQL, UNIX, Git, Stashblue, Jenkins, JIRA, IBM MQ (Messaging Queue), JSP, JSF, Servlets, JMS, Websphere, Gradle, Maven, JSON, Mockito, Postman, log4j, HTML, JavaScript, CSS
+        .flex-shrink-0
+          span.text-primary February 2019 - October 2020
+      br
+      br
+      .d-flex.flex-column.flex-md-row.justify-content-between
+        .flex-grow-1
+          h3.mb-0 Technology Analyst Intern
+          .subheading.mb-3 Morgan Stanley
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Developed a web tool to search and extract the data from the files, messages and other Exchange data sources involved in the post trade processing.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Designed and implemented the front end using Angular 7.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Used regex search feature on multiple file formats to read the data sent by exchange.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Migrated backend of the tool from AutoConf to Spring Boot.&#x25CF;&#x9;Migrated backend of the tool from AutoConf to Spring Boot.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Hosted the application on internally used cloud.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Provided walk through of design and code to internal development team and incorporated the feedback.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Created detailed documentation for the developed web tool including business need, features built, and ways to use the tool and presented to the users.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Used log4j for tracking errors and debugging the code
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Tech Stack used - Angular 7, Typescript, Ag-Grid, CodeMirror, Java, Spring MVC, Spring Boot, Git, Unix, Train, REST, JSON, XML, IBM MQ, JMS, RESTful API, SOAP API, MYSQL, Gradle, JSON, Mockito, Postman, Jenkins, log4j
+        .flex-shrink-0
+          span.text-primary May 2018 - August 2018
+      br
+      br
+      .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+        .flex-grow-1
+          h3.mb-0 Senior Software Engineer
+          .subheading.mb-3 Samsung Research India, Bangalore
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Worked on S Health &ndash; Fitness based Application from Samsung.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Optimized the power consumption of Pedometer in S Health which involved estimation based steps counting by recognizing the phases involved in walking instead of continuously running the step detection algorithm on the accelerometer data coming from mobile sensors which consumed a lot of mobile battery.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Designed and implemented the Strava Module being part of the Service interoperation team of S Health. It helped in mutual syncing of all the Strava and S Health fitness data.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Developed modules in the web application in order to monitor the fitness data of the millions of users.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Extensively used Core Java concepts like collection framework, multithreading, OOPS and Exception Handling
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Used log4j for tracking errors and debugging the code
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Developed stored procedures, triggers and functions with PL/SQL for Oracle database.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Tech Stack used &ndash; Android Framework, Java, RESTful API, XML, JSON, Jenkins for CI/CD, MYSQL, UNIX, Perforce, Octave, Tizen, Mockito, JIRA, Gradle, Maven, Spring MVC, JSP, Servlets, Oracle, HTML, JavaScript, CSS, log4j
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Developed features which assisted the S Health Application in communicating with the external medical devices like Heart Rate Monitor, Blood Pressure device, Bluetooth enabled Weighing Scale etc. at the Sensor level.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Developed capability which assisted the Wearable devices (Gear, Gear 2, Gear S, Gear S2) in communicating with the S Health Application. The communication involved syncing of the data between the mobile device and the wearable.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Contributed in restructuring the architecture of the module in Gear Manager using the design patterns and java concepts (oops, collections, Multithreading, etc.)
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Worked on Flagship Gear device of Samsung in SAMSUNG HQ (Suwon, South Korea) for 6 months. Designed and implemented from scratch Data base Comparison Tool using Java.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Worked on a POC (Concentration measuring while playing dart game) and formulated an algorithm to manipulate the accelerometer and gyroscope data from the Samsung Android Gear resulting in generating useful information for the user to improve the concentration while playing dart game.
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Used log4j for tracking errors and debugging the code
+          li
+            span.fa-li
+              i.fas.fa-circle.fa-xs(style='font-size: 0.5rem; vertical-align: middle')
+            |                                 Tech Stack used - Android Framework, Java, RESTful API, XML, JSON, Jenkins for CI/CD, MYSQL, UNIX, Perforce, JavaScript, Mockito, JIRA, Gradle, Maven, Apache Ivy, Apache Ant, log4j, tomcat
+        .flex-shrink-0
+          span.text-primary October 2020 - April 2022
+  hr.m-0
+  // Education
+  section#education.resume-section
+    .resume-section-content
+      h2.mb-5 Education
+      .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+        .flex-grow-1
+          h3.mb-0  University of Ottawa, Canada
+          .subheading.mb-3 Master of Computer Science
+          div Computer Science
+          p GPA: 3.90/4.0
+        .flex-shrink-0
+          span.text-primary September 2017 - December 2018
+      .d-flex.flex-column.flex-md-row.justify-content-between
+        .flex-grow-1
+          h3.mb-0 National Institute of Technology (NIT) Jalandhar
+          .subheading.mb-3 Bachelor of Technology in Computer Science &amp; Engineering
+          p GPA: 7.40/10.0
+        .flex-shrink-0
+          span.text-primary July 2010 - June 2014
+  hr.m-0
+  // Skills
+  section#skills.resume-section
+    .resume-section-content
+      h2.mb-5 Skills
+      .subheading.mb-3 Programming Languages &amp; Tools
+      ul.list-inline.dev-icons
+        li.list-inline-item
+          i.fab.fa-html5
+        li.list-inline-item
+          i.fab.fa-css3-alt
+        li.list-inline-item
+          i.fab.fa-js-square
+        li.list-inline-item
+          i.fab.fa-angular
+        li.list-inline-item
+          i.fab.fa-react
+        li.list-inline-item
+          i.fab.fa-node-js
+        li.list-inline-item
+          i.fab.fa-sass
+        li.list-inline-item
+          i.fab.fa-less
+        li.list-inline-item
+          i.fab.fa-wordpress
+        li.list-inline-item
+          i.fab.fa-gulp
+        li.list-inline-item
+          i.fab.fa-grunt
+        li.list-inline-item
+          i.fab.fa-npm
+      .subheading.mb-3 Workflow
+      ul.fa-ul.mb-0
+        li
+          span.fa-li
+            i.fas.fa-check
+          |                             Mobile-First, Responsive Design
+        li
+          span.fa-li
+            i.fas.fa-check
+          |                             Cross Browser Testing &amp; Debugging
+        li
+          span.fa-li
+            i.fas.fa-check
+          |                             Cross Functional Teams
+        li
+          span.fa-li
+            i.fas.fa-check
+          |                             Agile Development &amp; Scrum
+  hr.m-0
+  // Interests
+  section#interests.resume-section
+    .resume-section-content
+      h2.mb-5 Interests
+      p
+        | Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
+      p.mb-0
+        | When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
+  hr.m-0
+  // Awards
+  section#awards.resume-section
+    .resume-section-content
+      h2.mb-5 Awards &amp; Certifications
+      ul.fa-ul.mb-0
+        li
+          span.fa-li
+            i.fas.fa-trophy.text-warning
+          |                             Google Analytics Certified Developer
+        li
+          span.fa-li
+            i.fas.fa-trophy.text-warning
+          |                             Mobile Web Specialist - Google Certification
+        li
+          span.fa-li
+            i.fas.fa-trophy.text-warning
+          |                             1
+          sup st
+          |                             Place - University of Colorado Boulder - Emerging Tech Competition 2009
+        li
+          span.fa-li
+            i.fas.fa-trophy.text-warning
+          |                             1
+          sup st
+          |                             Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
+        li
+          span.fa-li
+            i.fas.fa-trophy.text-warning
+          |                             2
+          sup nd
+          |                             Place - University of Colorado Boulder - Emerging Tech Competition 2008
+        li
+          span.fa-li
+            i.fas.fa-trophy.text-warning
+          |                             1
+          sup st
+          |                             Place - James Buchanan High School - Hackathon 2006
+        li
+          span.fa-li
+            i.fas.fa-trophy.text-warning
+          |                             3
+          sup rd
+          |                             Place - James Buchanan High School - Hackathon 2005
+// Bootstrap core JS
+script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
+// Core theme JS
+script(src='js/scripts.js')
